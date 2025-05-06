@@ -1,0 +1,120 @@
+/*All created by Oliwier Weglarz*/
+body {
+  margin: 0;
+  font-family: TrajanPro, serif;
+  background-color: black;
+  color: #181617;
+  font-size: 3em;
+}
+header {
+  background-color: #F69E00;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 8px 15px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.search-cart {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+}
+
+.search-box {
+  padding: 5px 10px;
+  font-size: 1em;
+  border: none;
+  border-radius: 10px;
+  background-color: black;
+  color: white;
+  width: 100%;
+  max-width: 400px;
+}
+.cart-btn {
+  font-size: 1.5em;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+.cart-icon {
+  width: 35px;
+  height: 35px;
+}
+.sub-nav {
+  background-color: #996508;
+  border-top: 2px solid #d78b00;
+  display: flex;
+  gap: 40px;
+  padding: 1px 0;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.sub-nav a {
+	font-family: Arial, sans-serif;
+  text-decoration: none;
+  color: white;
+  padding: 5px 10px;
+  transition: color 0.2s;
+  font-size: 0.7em;
+}
+
+.sub-nav a:hover {
+  color: black;
+}
+main {
+  text-align: center;
+  padding: 20px;
+}
+
+main h1 {
+  font-family: Raleway, sans-serif;
+  text-align: center;
+  font-size: 3rem;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  color: white;#
+}
+.divider {
+  height: 1px;
+  background-color: #f5a623; 
+  width: 150%;
+  max-width: 2000px;
+}
+   .product-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(390px, 4fr));
+      gap: 50px;
+      padding: 10px;
+    }
+
+    .product-card {
+      background-color: #f89c1f;
+      padding: 2px;
+      text-align: center;
+      border-radius: 10px;
+	  margin: 5px;
+	  cursor: pointer;
+    }
+
+    .product-card img {
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    .product-card h3 {
+      font-size: 1rem;
+      margin: 10px 0 5px;
+      color: black;
+	  font-family: Verdana, sans-serif;
+    }
+
+    .product-card p {
+      margin: 0;
+      font-size: 0.9rem;
+      color: black;
+	  font-family: Verdana, sans-serif;
+    }
